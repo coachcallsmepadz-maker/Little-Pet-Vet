@@ -460,24 +460,14 @@ a {
 /* Rescue Section */
 .rescue-split {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 4rem;
+    grid-template-columns: 1.2fr 1fr;
+    gap: 3rem;
     align-items: center;
 }
 
 .rescue-image-container {
     position: relative;
-}
-
-.rescue-decorative-border {
-    position: absolute;
-    top: -20px;
-    left: -20px;
-    width: 100%;
-    height: 100%;
-    border: 3px dashed var(--primary);
-    border-radius: var(--radius-lg);
-    z-index: 0;
+    margin-left: -2rem;
 }
 
 .rescue-image {
