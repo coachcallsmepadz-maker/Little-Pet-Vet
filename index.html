@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Little Pet Vet | Small Mammal & Exotic Pet Clinic</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <img src="Images/Logo.png" alt="Little Pet Vet Logo">
+            </a>
+            <div class="nav-links">
+                <a href="#services">Services</a>
+                <a href="#rescue">Paws Rescue Clinic</a>
+                <a href="#about">About</a>
+                <a href="#contact" class="btn btn-primary">Book Now</a>
+            </div>
+            <button class="mobile-menu-btn" aria-label="Toggle menu">
+                <i data-lucide="menu"></i>
+            </button>
+        </div>
+    </nav>
+    <div class="mobile-menu">
+        <a href="#services">Services</a>
+        <a href="#rescue">Paws Rescue Clinic</a>
+        <a href="#about">About</a>
+        <a href="#contact" class="btn btn-primary">Book Now</a>
+    </div>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-content fade-in-up">
+            <span class="pill">Specialist Exotics Care</span>
+            <h1>Big Care for<br>Little Paws</h1>
+            <p>Expert veterinary care for Perth's small mammals and exotic pets. Your rabbits, guinea pigs, rats, and ferrets are in the safest hands.</p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn btn-primary">Book Appointment</a>
+                <a href="#services" class="btn btn-secondary">Explore Services</a>
+            </div>
+        </div>
+        <div class="hero-image-wrapper fade-in-left">
+            <div class="img-blob-bg"></div>
+            <img src="Images/hero.png" alt="Happy small pets" class="hero-image">
+        </div>
+    </header>
+
+    <!-- Services Section -->
+    <section id="services" class="services section-padding">
+        <div class="container">
+            <div class="section-title text-center reveal">
+                <h2>Specialized Veterinary Services</h2>
+                <p>We're not your standard cat and dog vet. We offer specialized expertise for the little creatures that matter.</p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card reveal">
+                    <div class="service-icon">
+                        <i data-lucide="heart"></i>
+                    </div>
+                    <h3>Small Mammal Wellness</h3>
+                    <p>Routine check-ups, weight monitoring, and tailored nutritional advice specifically designed for rabbits, guinea pigs, and other small exotic mammals.</p>
+                </div>
+                
+                <div class="service-card reveal delay-1">
+                    <div class="service-icon">
+                        <i data-lucide="activity"></i>
+                    </div>
+                    <h3>Specialized Surgery</h3>
+                    <p>Expert surgical procedures including small animal desexing (spay/neuter), delicate mass removals, and specialized abscess treatments.</p>
+                </div>
+                
+                <div class="service-card reveal delay-2">
+                    <div class="service-icon">
+                        <i data-lucide="smile"></i>
+                    </div>
+                    <h3>Advanced Dental Care</h3>
+                    <p>Comprehensive burring and dental surgery. Crucial for rabbits and guinea pigs whose teeth never stop growing, ensuring comfort and health.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Paws Rescue Clinic (About) -->
+    <section class="banner-section reveal">
+         <div class="container text-center">
+             <h2>Dedicated to specialized care, exclusively for small pets.</h2>
+         </div>
+    </section>
+
+    <section id="rescue" class="rescue section-padding">
+        <div class="container">
+            <div class="rescue-split">
+                <div class="rescue-image-container reveal">
+                    <div class="rescue-decorative-border"></div>
+                    <img src="Images/rescue.png" alt="Paws Rescue Clinic Guinea Pig" class="rescue-image">
+                </div>
+                <div class="rescue-content reveal delay-1" id="about">
+                    <span class="section-subtitle">Giving Back</span>
+                    <h2>Home of the Paws Rescue Clinic</h2>
+                    <p>Little Pet Vet is proud to be the dedicated home of the Paws Rescue Clinic. We believe every little creature deserves a chance at a healthy, happy life.</p>
+                    <p>We work intimately with local rescue groups like Perth Rescue Angels to provide vital low-cost and free veterinary care for homeless small animals across Perth.</p>
+                    <ul class="feature-list">
+                        <li><i data-lucide="check-circle-2"></i> Subsidized care for rescues</li>
+                        <li><i data-lucide="check-circle-2"></i> Partnered with Perth Rescue Angels</li>
+                        <li><i data-lucide="check-circle-2"></i> Dedicated rehabilitation support</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-outline mt-4">Support Our Mission</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Location -->
+    <section id="contact" class="contact section-padding bg-light">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info reveal">
+                    <h2>Visit Our Clinic</h2>
+                    <p>Located conveniently in Bentley Plaza. We're ready to welcome you and your little companions.</p>
+                    
+                    <div class="info-blocks">
+                        <div class="info-item">
+                            <div class="info-icon"><i data-lucide="map-pin"></i></div>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Suite 8/10, 18 Ewing St<br>Bentley WA 6102, Australia<br>(Located in Bentley Plaza)</p>
+                            </div>
+                        </div>
+                        
+                        <div class="info-item">
+                            <div class="info-icon"><i data-lucide="clock"></i></div>
+                            <div>
+                                <h4>Opening Hours</h4>
+                                <p><strong>Monday – Friday:</strong> 9:00 AM – 5:00 PM<br><strong>Saturday:</strong> By Appointment<br><strong>Sunday:</strong> Closed</p>
+                            </div>
+                        </div>
+
+                        <div class="info-item">
+                            <div class="info-icon"><i data-lucide="phone"></i></div>
+                            <div>
+                                <h4>Contact Us</h4>
+                                <p><a href="tel:+61861199166">+61 8 6119 9166</a><br><a href="mailto:reception@littlepetvet.com.au">reception@littlepetvet.com.au</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form-container reveal delay-1">
+                    <form class="contact-form" onsubmit="event.preventDefault(); alert('In a real app, this would send an appointment request.');">
+                        <h3>Request an Appointment</h3>
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" placeholder="Jane Doe" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="pet">Pet's Name & Species</label>
+                            <input type="text" id="pet" placeholder="Fluffy (Rabbit)" required>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="phone">Phone</label>
+                                <input type="tel" id="phone" placeholder="0400 000 000" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" placeholder="jane@example.com" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="reason">Reason for Visit</label>
+                            <select id="reason" required>
+                                <option value="" disabled selected>Select an option</option>
+                                <option value="checkup">Wellness Check-up</option>
+                                <option value="dental">Dental Care</option>
+                                <option value="surgery">Surgery Consultation</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Submit Request</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <img src="Images/Logo.png" alt="Little Pet Vet Logo" class="footer-logo">
+                <p>Specialized care for small mammals and exotic pets.</p>
+                <div class="social-links">
+                    <a href="https://instagram.com/littlepet_vet" target="_blank" aria-label="Instagram"><i data-lucide="instagram"></i></a>
+                    <a href="https://facebook.com/LittlePetVet" target="_blank" aria-label="Facebook"><i data-lucide="facebook"></i></a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <a href="#services">Services</a>
+                <a href="#rescue">Paws Rescue Clinic</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="footer-legal">
+                <h4>Legal</h4>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Little Pet Vet. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
